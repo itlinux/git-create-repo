@@ -1,0 +1,19 @@
+= Git CLI Create Script 
+
+Simple api -- Create git repo from the CLI. 
+
+== Example: 
+
+----
+sh git-create.sh REPO "Description of your Repo."
+----
+
+or
+
+----
+chmod +x git-create.sh
+./git-create REPO "Description of your Repo."
+----
+
+
+NOTE: It creates the README.adoc with the Description you have typed as the main header. 
